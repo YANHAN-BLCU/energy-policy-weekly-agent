@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "generated_from": "police_site_classify_20261012",
+  "purpose": "静态排除站点：JS 动态防护（HTTP 412/473），固定走宿主 AI 搜索直采，不进静态采集队列。",
+  "count": 13,
+  "sources": [
+    {
+      "code": "GS DEE",
+      "chinese_name": "甘肃省生态环境厅",
+      "region": "Northwest",
+      "website": "http://sthj.gansu.gov.cn",
+      "search_query": "甘肃省生态环境厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "GS DIIT",
+      "chinese_name": "甘肃省工业和信息化厅",
+      "region": "Northwest",
+      "website": "http://www.gansu.gov.cn",
+      "search_query": "甘肃省工业和信息化厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "GS DOF",
+      "chinese_name": "甘肃省财政厅",
+      "region": "Northwest",
+      "website": "http://czt.gansu.gov.cn",
+      "search_query": "甘肃省财政厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "GS DRC",
+      "chinese_name": "甘肃省发展和改革委员会",
+      "region": "Northwest",
+      "website": "https://fzgg.gansu.gov.cn",
+      "search_query": "甘肃省发展和改革委员会 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "GS EA",
+      "chinese_name": "甘肃省能源局",
+      "region": "Northwest",
+      "website": "https://fzgg.gansu.gov.cn",
+      "search_query": "甘肃省能源局 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "GS GO",
+      "chinese_name": "甘肃省人民政府办公厅",
+      "region": "Northwest",
+      "website": "http://www.gansu.gov.cn",
+      "search_query": "甘肃省人民政府办公厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "GS PG",
+      "chinese_name": "甘肃省人民政府",
+      "region": "Northwest",
+      "website": "http://www.gansu.gov.cn",
+      "search_query": "甘肃省人民政府 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "HUB DEE",
+      "chinese_name": "湖北省生态环境厅",
+      "region": "Central China",
+      "website": "https://sthjt.hubei.gov.cn",
+      "search_query": "湖北省生态环境厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "HUB DIIT",
+      "chinese_name": "湖北省工业和信息化厅",
+      "region": "Central China",
+      "website": "http://www.hubei.gov.cn",
+      "search_query": "湖北省工业和信息化厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "HUB DRC",
+      "chinese_name": "湖北省发展和改革委员会",
+      "region": "Central China",
+      "website": "http://fgw.hubei.gov.cn",
+      "search_query": "湖北省发展和改革委员会 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "HUB GO",
+      "chinese_name": "湖北省人民政府办公厅",
+      "region": "Central China",
+      "website": "http://www.hubei.gov.cn",
+      "search_query": "湖北省人民政府办公厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "HUB PG",
+      "chinese_name": "湖北省人民政府",
+      "region": "Central China",
+      "website": "http://www.hubei.gov.cn",
+      "search_query": "湖北省人民政府 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    },
+    {
+      "code": "QH DOF",
+      "chinese_name": "青海省财政厅",
+      "region": "Northwest",
+      "website": "http://czt.qinghai.gov.cn",
+      "search_query": "青海省财政厅 本周 能源 政策",
+      "reason": "JS 动态防护，静态不可达"
+    }
+  ]
+}

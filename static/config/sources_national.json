@@ -1,0 +1,492 @@
+{
+  "version": "1.0",
+  "generated_from": "agency_source_registry_249_step12_verified.json",
+  "sources": [
+    {
+      "code": "GOSC",
+      "name": "General Office of the State Council",
+      "chinese_name": "国务院办公厅",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Office",
+      "website": "https://www.gov.cn",
+      "list_url": "https://www.gov.cn/zhengce/index.htm",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/zhengce/content/\\d+/content_\\d+.htm",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.gov.cn/zhengce/index.htm"
+      ],
+      "body_selectors": [
+        ".TRS_UEDITOR"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MARA",
+      "name": "Ministry of Agriculture and Rural Affairs",
+      "chinese_name": "农业农村部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "https://www.moa.gov.cn",
+      "list_url": "https://www.moa.gov.cn/gk/zcfg/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/gk/zcfg/xzfg/\\d+/t\\d+_\\d+.htm",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.moa.gov.cn/gk/zcfg/"
+      ],
+      "body_selectors": [
+        ".gsj_htmlcon_bot"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MEE",
+      "name": "Ministry of Ecology and Environment",
+      "chinese_name": "生态环境部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "https://www.mee.gov.cn",
+      "list_url": "https://www.mee.gov.cn/zcwj/bwj/wj/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/xxgk\\d+/xxgk/xxgk\\d+/\\d+/t\\d+_\\d+.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.mee.gov.cn/zcwj/bwj/wj/"
+      ],
+      "body_selectors": [
+        ".content_body"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MEM",
+      "name": "Ministry of Emergency Management",
+      "chinese_name": "应急管理部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "http://www.mem.gov.cn",
+      "list_url": "https://www.mem.gov.cn/gk/tzgg/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/gk/zfxxgkpt/fdzdgknr/\\d+/t\\d+_\\d+.shtml",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.mem.gov.cn/gk/tzgg/"
+      ],
+      "body_selectors": [
+        ""
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MIIT",
+      "name": "Ministry of Industry and Information Technology",
+      "chinese_name": "工业和信息化部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "https://www.miit.gov.cn",
+      "list_url": "https://www.miit.gov.cn/search/zcwjk.html?websiteid=110000000000000&category=183",
+      "adapter": "browser",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/zwgk/zcwj/.*art/20\\d{2}/art_[a-f0-9]+\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.miit.gov.cn/search/zcwjk.html?websiteid=110000000000000&category=183"
+      ],
+      "body_selectors": [
+        "#con_con"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MNR",
+      "name": "Ministry of Natural Resources",
+      "chinese_name": "自然资源部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "http://www.mnr.gov.cn",
+      "list_url": "https://www.mnr.gov.cn/gk/tzgg/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/gk/tzgg/\\d+/t\\d+_\\d+.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.mnr.gov.cn/gk/tzgg/",
+        "https://www.mnr.gov.cn/gk/tzgg/index_1.html"
+      ],
+      "body_selectors": [
+        "#content1"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MOF",
+      "name": "Ministry of Finance",
+      "chinese_name": "财政部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "http://www.mof.gov.cn",
+      "list_url": "https://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/",
+      "adapter": "static",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/20\\d{4}/t20\\d{6}_\\d+\\.htm",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "allowed_hosts": [
+        "mof.gov.cn"
+      ],
+      "entry_urls": [
+        "https://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/"
+      ],
+      "body_selectors": [
+        ".TRS_Editor"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MOHURD",
+      "name": "Ministry of Housing and Urban-Rural Development",
+      "chinese_name": "住房和城乡建设部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "https://www.mohurd.gov.cn",
+      "list_url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/index.html",
+      "adapter": "jpaas_unit",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/gongkai/zc/wjk/art/20\\d{2}/art_[a-f0-9]+\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.mohurd.gov.cn/gongkai/zc/wjk/index.html"
+      ],
+      "body_selectors": [
+        ".editor-content"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "MOT",
+      "name": "Ministry of Transport",
+      "chinese_name": "交通运输部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "https://www.mot.gov.cn",
+      "list_url": "https://xxgk.mot.gov.cn/zhengce/?gk=5",
+      "adapter": "browser",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/gz/20\\d{4}/t20\\d{6}_\\d+\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://xxgk.mot.gov.cn/zhengce/?gk=5"
+      ],
+      "body_selectors": [
+        ".TRS_UEDITOR"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-08",
+      "allowed_hosts": [
+        "xxgk.mot.gov.cn"
+      ]
+    },
+    {
+      "code": "NBS",
+      "name": "National Bureau of Statistics",
+      "chinese_name": "国家统计局",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Agency",
+      "website": "https://www.stats.gov.cn",
+      "list_url": "https://www.stats.gov.cn/xxgk/zcfggz/gfxwj/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/xxgk/zcfggz/gfxwj/\\d+/t\\d+_\\d+.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.stats.gov.cn/xxgk/zcfggz/gfxwj/"
+      ],
+      "body_selectors": [
+        ".TRS_UEDITOR"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "NDRC",
+      "name": "National Development and Reform Commission",
+      "chinese_name": "国家发展和改革委员会",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "http://www.ndrc.gov.cn",
+      "list_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/xxgk/zcfb/tz/\\d+/t\\d+_\\d+.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.ndrc.gov.cn/xxgk/zcfb/tz/"
+      ],
+      "body_selectors": [
+        ".TRS_Editor"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "NEA",
+      "name": "National Energy Administration",
+      "chinese_name": "国家能源局",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Agency",
+      "website": "http://www.nea.gov.cn",
+      "list_url": "https://www.nea.gov.cn/policy/zxwj.htm",
+      "adapter": "xinhua_json",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/20\\d{6}/[a-f0-9]+/c\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.nea.gov.cn/policy/zxwj.htm"
+      ],
+      "body_selectors": [
+        ".article-content"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "SAC",
+      "name": "Standardization Administration of China",
+      "chinese_name": "国家标准化管理委员会",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Agency",
+      "website": "http://www.sac.gov.cn",
+      "list_url": "https://www.sac.gov.cn/xxgk/zcwj/index.html",
+      "adapter": "jpaas_unit",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/xxgk/zcwj/art/20\\d{2}/art_[a-f0-9]+\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.sac.gov.cn/xxgk/zcwj/index.html"
+      ],
+      "body_selectors": [
+        "#content1"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "SAMR",
+      "name": "State Administration for Market Regulation",
+      "chinese_name": "国家市场监督管理总局",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Regulator",
+      "website": "https://www.samr.gov.cn",
+      "list_url": "https://www.samr.gov.cn/zw/zjwj/index.html",
+      "adapter": "browser",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/zw/zfxxgk/fdzdgknr/.*art/20\\d{2}/art_[a-f0-9]+\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.samr.gov.cn/zw/zjwj/index.html"
+      ],
+      "body_selectors": [],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "SASAC",
+      "name": "State-owned Assets Supervision and Administration Commission of the State Council",
+      "chinese_name": "国务院国有资产监督管理委员会",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "http://www.sasac.gov.cn/",
+      "list_url": "http://www.sasac.gov.cn/n2588035/n2588320/index.html",
+      "adapter": "static",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/n2588035/n2588320/n\\d+/c\\d+/content\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "http://www.sasac.gov.cn/n2588035/n2588320/index.html"
+      ],
+      "body_selectors": [
+        ".zsy_comain"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "STATE COUNCIL",
+      "name": "State Council",
+      "chinese_name": "国务院",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "https://www.gov.cn",
+      "list_url": "https://www.gov.cn/zhengce/index.htm",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/zhengce/content/\\d+/content_\\d+.htm",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.gov.cn/zhengce/index.htm"
+      ],
+      "body_selectors": [
+        ".TRS_UEDITOR"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "ADBC",
+      "name": "Agricultural Development Bank of China",
+      "chinese_name": "中国农业发展银行",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Finance",
+      "website": "https://www.adbc.com.cn",
+      "list_url": "https://www.adbc.com.cn/n354793/n354835/index.html",
+      "adapter": "static",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/n354793/n354835/c\\d+/content\\.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.adbc.com.cn/n354793/n354835/index.html"
+      ],
+      "body_selectors": [
+        "#ContentText"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "CDB",
+      "name": "China Development Bank",
+      "chinese_name": "国家开发银行",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Finance",
+      "website": "https://www.cdb.com.cn",
+      "list_url": "https://www.cdb.com.cn/xwzx/zcfb/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.cdb.com.cn/xwzx/zcfb/"
+      ],
+      "body_selectors": [
+        ".TRS_Editor"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    },
+    {
+      "code": "CNCA",
+      "name": "Certification and Accreditation Administration",
+      "chinese_name": "国家认证认可监督管理委员会",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Agency",
+      "website": "https://www.cnca.gov.cn",
+      "list_url": "https://www.cnca.gov.cn/zwxx/gg/{year}/index.html",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06",
+      "entry_urls": [
+        "https://www.cnca.gov.cn/zwxx/gg/{year}/index.html"
+      ],
+      "body_selectors": [
+        ".detail_messge"
+      ]
+    },
+    {
+      "code": "MOST",
+      "name": "Ministry of Science and Technology",
+      "chinese_name": "科学技术部",
+      "level": "National",
+      "region": "Nationwide",
+      "type": "Government",
+      "website": "https://www.most.gov.cn",
+      "list_url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/",
+      "adapter": "auto",
+      "enabled": true,
+      "verification": "Pass",
+      "max_items": 10,
+      "policy_detail_pattern": "/xxgk/xinxifenlei/fdzdgknr/fgzc/flfg/\\d+/t\\d+_\\d+.html",
+      "note": "portable registry generated from agency_source_registry_249_step12_verified.json",
+      "entry_urls": [
+        "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/"
+      ],
+      "body_selectors": [
+        ".TRS_UEDITOR"
+      ],
+      "body_acceptance": "Passed",
+      "body_acceptance_date": "2026-10-06"
+    }
+  ],
+  "collection_level": "National"
+}
